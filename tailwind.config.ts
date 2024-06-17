@@ -8,16 +8,6 @@ export default <Partial<Config>>{
   darkMode: "class",
   theme: {
     extend: {
-      container: {
-        center: false,
-        padding: {
-          DEFAULT: "0.5rem",
-          sm: "2rem",
-          lg: "0.5rem",
-          xl: "0.5rem",
-          "2xl": "0.5rem",
-        },
-      },
       fontFamily: {
         sans: ["Inter var", ...fontFamily.sans],
       },

@@ -1,7 +1,7 @@
 <template>
- <aside>
+ <aside class="w-[15rem]">
     <div
-      class=" h-full w-full flex-col gap-5 overflow-y-auto rounded-md border bg-card pb-3 scrollbar-thin scrollbar-thumb-input scrollbar-thumb-rounded-md"
+      class=" h-full w-full flex-col overflow-y-auto rounded-md border  scrollbar-thin scrollbar-thumb-input scrollbar-thumb-rounded-md"
     >
       <SidebarItem :links="sidemenu" />
     </div>
@@ -41,6 +41,7 @@
       items: [
         { title: "Members", path: "/customers"  },
         { title: "Roles", path: "/customers"  },
+        { title: "Departments", path: "/customers"  },
       ],
     },
     {
